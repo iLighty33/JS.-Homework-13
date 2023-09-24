@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS. Homework 13</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <h2>Book search:</h2>
+    <form action="#" name="searchForm", class="myForm", id="myNewForm">
+        <div class="myBookTitle">
+            <label for="title">Title:</label>
+            <input placeholder="Enter name of the book" type="text", name="title", id="bookTitle">
+        </div>
+        <div class = "myBtn">
+            <button type="submit" id="searchBtn">Search</button>
+            <button type="submit" id="descritpionBtn">Description</button>
+        </div>
+    </form>
+
+    <h3 class="myBookPosition"></h3>
+    <div class="descriptionBox" id="descr">
+        <p id="descrText"></p>
+    </div>
+
+    <script type="module" src="scripts/main.js"></script>
+</body>
+</html>
